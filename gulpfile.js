@@ -11,6 +11,9 @@ gulp.task("image",function(){
 gulp.task("js",function(){
 	gulp.src("js/**").pipe(gulp.dest("dist/js")).pipe(connect.reload());
 })
+gulp.task("data",function(){
+	gulp.src("data/**").pipe(gulp.dest("dist/data")).pipe(connect.reload());
+})
 gulp.task("sass",function(){
 	gulp.src("sass/*.scss").pipe(sass()).pipe(gulp.dest("dist/css")).pipe(connect.reload());
 })
@@ -19,6 +22,7 @@ gulp.task("watch",function(){
 	gulp.watch("sass/*.scss",["sass"]);
 	gulp.watch("img/**",["image"]);
 	gulp.watch("js/*.js",["js"]);
+	gulp.watch("data/**",["data"]);
 })
 gulp.task("server",function(){
 	connect.server({
