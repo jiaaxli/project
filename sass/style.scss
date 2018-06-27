@@ -553,6 +553,9 @@ input,a{outline:none;}
                                 }
                             }
                         }
+                        .index_item:hover .index_item_div{
+                            display: block;
+                        }
                     }
                     
             }
@@ -739,6 +742,10 @@ input,a{outline:none;}
         border-bottom: 1px solid #e8e8e8;
         overflow: hidden;
         width: 235px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
     }
     li:hover .index_main1_div2{
         transform: translateY(-40px);
@@ -941,6 +948,7 @@ input,a{outline:none;}
     border: #e5e5e5 1px solid;
     border-top: none;
     li{
+        float: left;
         width: 166px;
         border-right: none;
         padding: 13px 0 18px 19px;

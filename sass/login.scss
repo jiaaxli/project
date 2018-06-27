@@ -1,0 +1,261 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+em{font-style: normal;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"宋体";font-size: 12px;}
+input,a{outline:none;}
+.header{
+    width:1000px;
+    margin:0 auto;
+    img,span{
+        margin: 10px 0;
+        float: left;
+    }
+    span{
+        line-height: 70px;
+        font-size:  18px;
+        padding-left: 3px;
+        font-family: "微软雅黑";
+    }
+}
+.login_main{
+    width: 1000px;
+    height: auto !important;
+    min-height: 500px;
+    background: #fff;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+.pic{
+    widows: 540px;
+    height: 390px;
+    padding-top: 14px;
+    float: left;
+    img{
+        margin-top: 32px;
+    }
+}
+
+.login{
+    width: 400px;
+    min-height: 100px;
+    float: left;
+    .login_header{
+        width: 400px;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        span{
+            display: inline-block;
+            color: #515151;
+            font-size: 16px;
+            float: left;
+        }
+        a{
+            display: inline-block;
+            float: right;
+            font-size: 12px;
+            color: #515151;
+            width: 70px;
+            height: 25px;
+            border: 1px solid #34b742;
+            line-height: 25px;
+            text-align: center;
+            margin-top: 12px;
+            background: #fff4f0;
+        }
+    }
+    .login_box{
+        position: relative;
+        z-index: 1;
+        left: 0;
+        top: 0px;
+        border: 1px solid #cdcdcd;
+        height: auto !important;
+        min-height: 150px;
+    }
+    .loginnav{
+        position: absolute;
+        width: 100%;
+        li{
+            border-right: 1px solid #cdcdcd;
+            border-bottom: 1px solid #cdcdcd;
+            height: 30px;
+            width: 132px;
+            float: left;
+            font-size: 14px;
+            line-height: 30px;
+            cursor: pointer;
+            em{
+                float: left;
+                margin: 10px 5px 0 24px;
+                background: url(../images/loginicon.png) no-repeat;
+                width: 15px;
+                height: 15px;
+            }
+        }
+        .curr{
+            border-bottom: 1px solid #fff;
+            border-top: 2px solid #69af05;
+            position: relative;
+            margin-top: -2px;
+        }
+        .npay{
+            border-bottom: 1px solid #cdcdcd;
+            border-right: 1px solid #cdcdcd;
+            height: 30px;
+            width: 132px;
+            float: left;
+            font-size: 14px;
+            line-height: 30px;
+            cursor: pointer;
+            em{
+                background-position: 0 -25px;
+            }
+            
+        }
+        .nexpress{
+            em{
+                background-position: 0 -48px;
+            }
+        }
+        .bordernone{
+            border-right:0 ;
+        }
+    }
+}
+.logincon{
+    color: #000;
+    .Lable{
+        display: block;
+        height: 26px;
+        line-height: 26px;
+    }
+    .Form{
+        margin-top: 30px;
+        padding-left: 40px;
+        input{
+            width: 274px;
+            height: 20px;
+            padding: 8px 5px;
+            line-height: 20px;
+            font-size: 14px;
+           
+            border: 1px solid #cdcdcd;
+        }
+        h3{
+             margin-top: 20px;
+            height: 26px;
+            line-height: 26px;
+            font-size: 12px;
+        }
+        #yanma {
+            width: 80px;
+            margin-top: 20px; 
+        }
+        .forget {
+            margin-right: 50px; 
+        }
+        .submit {
+            margin-top: 20px; 
+        }
+        .submit a{
+            width: 282px;
+            display: block;
+            background: url(../images/login_bg.jpg) left top no-repeat;
+            height: 41px;
+            line-height: 41px;
+            font-size: 18px;
+            text-align: center;
+            color: #f2f1f1;
+            letter-spacing: 0.8em;
+            margin-bottom: 20px;
+        }
+        
+    }
+}
+.blink{
+    padding: 0;
+    //border-top: 1px solid #cdcdcd;
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+.newblink{
+    overflow: hidden;
+    height: 56px;
+    li{
+        float: left;
+        border-right: 1px solid #e1e1e1;
+        div{
+            text-align: center;
+        }
+        span{
+            cursor: pointer;
+            display: block;
+            font-size: 12px;
+            color: #515151;
+            
+        }
+        .s1{
+            height: 20px
+        }
+        .s2{
+            height: 16px;
+            line-height: 16px;
+            padding-top: 4px;
+        }
+        i{
+            display: inline-block;
+            text-align: center;
+        }
+        .icon1{
+            width: 20px;
+            height: 20px;
+        }
+        .bg{
+            background: url(../images/logo-icon.jpg) no-repeat;
+        }
+        .link1{
+            color: #515151;
+            height: 26px;
+            line-height: 26px;
+            text-decoration: none;
+        }
+        .icon2{
+            width: 20px;
+            height: 20px;
+            background-position: -21px 0;
+        }
+        .icon4{
+            width: 20px;
+            height: 20px;
+            background-position: -63px 0;
+        }
+        .icon5{
+            width: 20px;
+            height: 20px;
+            background-position: -84px 0;
+        }
+    }
+    .li1{
+        width: 91px;
+    }
+    .li2{
+        width: 108px;
+    }
+    .li3{
+        width: 96px;
+    }
+    .li4{
+        width: 95px;
+    }
+    
+}

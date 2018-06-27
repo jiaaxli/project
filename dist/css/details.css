@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.index_nav_uplist {
+  display: none; }
+
+.details_main {
+  width: 100%;
+  margin: 0 auto; }
+
+.details_list {
+  overflow: hidden; }
+  .details_list li {
+    float: left;
+    border-radius: 6px;
+    width: 240px;
+    height: 370px;
+    padding: 5px;
+    font-family: "微软雅黑";
+    margin: 10px; }
+  .details_list .details_listD {
+    padding: 11px;
+    width: 219px;
+    height: 350px;
+    position: relative;
+    z-index: 1; }
+  .details_list .details_listD_div1 img {
+    width: 200px;
+    height: 200px;
+    border: 0; }
+  .details_list .details_listD_div2 {
+    margin: 5px 0 3px 0;
+    height: 20px;
+    overflow: hidden; }
+  .details_list .details_listD_div2S {
+    float: left;
+    margin-right: 2px;
+    line-height: 20px; }
+  .details_list .details_listD_div2S1 {
+    font-family: 微软雅黑;
+    color: #BB3221; }
+    .details_list .details_listD_div2S1 strong {
+      font-size: 16px;
+      font-weight: normal; }
+
+.details_listD_div3 {
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden; }
+
+.details_listD_div4 a {
+  color: #EA5404; }
+
+.details_listD_div5 {
+  margin-top: 30px; }
+
+.details_listD_div5D1 {
+  float: left;
+  width: 68px;
+  height: 30px;
+  overflow: hidden;
+  zoom: 1;
+  margin-right: 12px; }
+  .details_listD_div5D1 span {
+    float: left; }
+    .details_listD_div5D1 span a {
+      color: #dadada;
+      cursor: default;
+      display: block;
+      width: 18px;
+      height: 28px;
+      border: 1px solid #dadada;
+      display: block;
+      line-height: 28px;
+      text-align: center;
+      text-decoration: none; }
+    .details_listD_div5D1 span input {
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      border: 0;
+      border: 1px solid #dadada;
+      border-left: none;
+      border-right: none;
+      font-size: 14px;
+      overflow: hidden;
+      color: #969696; }
+
+.details_listD_div5D2 {
+  float: left; }
+  .details_listD_div5D2 a {
+    display: block;
+    text-align: center;
+    background: url(../images/productlist_cart.png) no-repeat scroll 20px 10px #6B9C05;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    width: 105px;
+    border: 0 none;
+    border-radius: 2px;
+    padding: 0 0 0 25px;
+    font-size: 14px; }

@@ -32,6 +32,19 @@ $(function(){
 		$(".cart-list").animate({right:"-101%"},1000);
 		$(".cart-wrap").animate({"display":"none"},1000);
 	})
+	
+	
+	$(".s-app").hover(function(){
+		$(".appItem").animate({right:0},1000);
+		$(".appInfo").animate({"display":"block"},1000);
+		
+	},function(){
+		$(".appItem").animate({right:"-101%"},1000);
+		$(".appInfo").animate({"display":"none"},1000);
+	})
+	
+	
+	
 
 })
 

@@ -481,6 +481,8 @@ input, a {
                   right: 6px;
                   background: url(../images/index_icon_new.png) no-repeat -245px -1px;
                   cursor: pointer; }
+          #index_nav_wrap #index_nav .index_nav_left .index_nav_uplist .index_nav_uplist1 .index_item:hover .index_item_div {
+            display: block; }
     #index_nav_wrap #index_nav .index_nav_list {
       width: 1000px;
       float: right;
@@ -635,6 +637,9 @@ input, a {
     border-bottom: 1px solid #e8e8e8;
     overflow: hidden;
     width: 235px; }
+    .index_main1_list li img {
+      width: 200px;
+      height: 200px; }
   .index_main1_list li:hover .index_main1_div2 {
     transform: translateY(-40px);
     transition: 500ms; }
@@ -819,6 +824,7 @@ input, a {
   border: #e5e5e5 1px solid;
   border-top: none; }
   .index_main2_leftB li {
+    float: left;
     width: 166px;
     border-right: none;
     padding: 13px 0 18px 19px; }

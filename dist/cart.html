@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--index_menu-->
+		<div id="index_menu_wrap">
+			<div id="index_menu">
+				<ul class="index_menu_left">
+					<li>冷链配送 顺丰到家 送至:</li>
+					<li>
+						<p class="index_menu_left_p">
+							<span class="index_menu_left_span">北京</span>
+							<b></b>
+						</p>
+						
+					</li>
+				</ul>
+				<ul class="index_menu_right">
+					<li class="index_menu_right_list1">嘿，欢迎来到顺丰优选！
+						<a href="login.html">请登录</a>|
+						<div class="index_menu_right_register">
+							<a href="register.html">免费注册</a>
+							<div class="index_menu_right_register1">
+								<span></span>
+									<em>新会员注册即送优惠券大礼包</em>
+							</div>
+						</div>
+					</li>
+					<li><a href="">我的订单</a></li>
+					<li class="index_menu_right_list3">
+						<a href="">我的优选</a>
+						<b></b>
+						<span class="index_menu_right_list3_span"></span>
+						<span class="index_menu_right_list3_span1"></span>
+						<ul class="index_menu_right_down">
+							<li><a href="">我的订单</a></li>
+							<li><a href="">我的积分</a></li>
+							<li><a href="">我的收藏</a></li>
+							<li><a href="">我的优选卡</a></li>
+							<li><a href="">我的优惠券</a></li>
+						</ul>
+					</li>
+					<li class="index_menu_right_list4">
+						<p></p>
+						<a href="">移动客户端</a>
+					</li>
+					<li class="index_menu_right_list3">
+						<a href="">帮助中心</a>
+						<b></b>
+					</li>
+					<li class="index_menu_right_list5">
+						<em>网站导航</em>
+						<b></b>
+					</li>
+					<li class="index_menu_right_list6">
+						<a href=""></a>
+					</li>
+					<li class="index_menu_right_list7">
+						<a href=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-------------index_header-------------->
+		<div id="index_header_wrap" style="height: 100px;">
+			<div id="index_header">
+				<div class="index_header_left">
+					<a href="index.html" class="index_header_logo1"></a>
+					<a class="index_header_logo2"></a>
+					<div class="index_header_logo3">
+						<img src="images/logo_word.png" />
+					</div>
+				</div>
+				<span>
+					<img src="images/step_01.jpg" />
+				</span>
+			</div>
+		</div>	
+		<!---------------------cart_main---------------------------------------->
+		<div class="cartMain">
+        	<h3 class="cartMy">我的购物车</h3>    			
+    		<div class="cartMain">
+    			
+        		<div class="cartThead">
+    				<div class="tCol tCheckbox">
+    					<input name="acart_list_check" id="Zall" type="checkbox" class="selectAll" checked="checked">
+        全选
+    				</div>
+    				<div class="tCol tGoods">商品</div>
+    				<div class="tCol tPrice">单价</div>
+    				
+    				<div class="tCol tQuantity">数量</div>
+    				<div class="tCol tSubtotal">小计</div>
+    				<div class="tCol tInventory">库存状态</div>
+    				<div class="tCol tOperator">操作</div>
+				</div>
+								
+				<div id="prodList" style="min-height: 50px;">
+    				<!--<div class="cartItem">
+        				<div class="pItem pCheckbox">
+                        	<input type="checkbox" checked="checked">
+                   		</div>
+				
+            			<div class="clearfix">
+                			<div class="cart_pimg">
+                    			<a href="">
+                       				<img width="62" height="62" src="">
+                    			</a>
+                			</div>
+                								
+                    		<div class="cart_pname">
+                        		<a href="">潮香村 经典牛扒 163g</a>
+                    		</div>
+               
+            			</div>
+        								
+
+        				<div class="pItem spree_sm03">
+                				<strong>¥9.9</strong>
+                    	</div>
+
+
+            			<div class="cartAmount">
+                            
+                			<input type="text">
+            			</div>
+            
+        				<div class="pItem pSubtotal">
+        					¥
+        					<span id="total_price">39.6</span>
+        				</div>
+        				<div class="pItem pInventory">现货</div>
+        				
+        				<div class="pItem pOperator">
+                        	<a id="cartDel" class="remove" href="">删除</a>
+                    	</div>
+    				</div>-->
+				</div>
+
+			</div>
+
+			<div class="cartOrderCount" id="orderCount">
+    			<div class="cartTotalItem">
+        
+               		商品总计：<span class="cartPrice" id="allMoney2">¥39.6</span>
+    			</div>
+			</div>
+			
+			<div class="cartJsuan">
+    			<input class="goshop" value="继续购物" type="button">
+        		<input class="jiesuan youxuan" value="去结算" type="button" num="4">
+			</div>
+
+		</div>
+		<!--------------------------------index_footer--------------------------->
+		<div id="index_footer_wrap">
+			<div id="index_footer">
+				<div class="index_footer_top">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="index_footer_up">
+					<div class="index_footer_up1">
+						<div class="index_footer_Uleft">
+							<ul>
+								<li>9533858</li>
+								<li>周一至周日8:30-22:00</li>
+							</ul>
+						</div>
+						<div class="index_footer_Uconter">
+							<ul>
+								<li>购物指南</li>
+								<li><a href="">积分制度</a></li>
+								<li><a href="">会员介绍</a></li>
+								<li><a href="">购物流程</a></li>
+								<li><a href="">常见问题</a></li>
+							</ul>
+							<ul>
+								<li>配送服务</li>
+								<li><a href="">配送政策</a></li>
+								<li><a href="">开箱验货</a></li>
+								<li><a href="">配送运费</a></li>
+								<li><a href="">配送范围</a></li>
+							</ul>
+							<ul>
+								<li>支付方式</li>
+								<li><a href="">货到付款</a></li>
+								<li><a href="">在线支付</a></li>
+								<li><a href="">优选卡</a></li>
+								<li><a href="">发票制度</a></li>
+							</ul>
+							<ul>
+								<li>售后服务</li>
+								<li><a href="">退款说明</a></li>
+								<li><a href="">退换货流程</a></li>
+								<li><a href="">退换货政策</a></li>
+								<li><a href="">隐私条款</a></li>
+							</ul>
+							<ul>
+								<li>商家中心</li>
+								<li><a href="">商家规则</a></li>
+								<li><a href="">食品安全规范</a></li>
+								<li><a href="">委托管理创业招募</a></li>
+							</ul>
+						</div>
+						<div class="index_footer_Uright">
+							<ul>
+								<li><a href="">手机客户端</a></li>
+								<li>
+									<span></span>
+								</li>
+							</ul>
+							<ul>
+								<li>官方微信</li>
+								<li>
+									<span></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="index_footer_up2">
+						<div class="index_footer_up2D1">
+							<a href="">
+								<img src="images/credit.png"/>
+							</a>
+						</div>
+						<div class="index_footer_up2D2">
+							<a href="">
+								<img src="images/cert.png"/>
+							</a>
+						</div>
+						<div class="index_footer_up2D3">
+							<a href="">
+								<img src="images/bottom_sm.png"/>
+							</a>
+						</div>
+						<div class="index_footer_up2D4">
+							<p>
+								<span><a href="">关于我们</a></span>
+								<span><a href="">联系我们</a></span>
+								<span><a href="">招聘人才</a></span>
+								<span><a href="">友情链接</a></span>
+								<span>Copyright© 顺丰优选 sfbest.com 版权所有</span>
+							</p>
+							<p>
+								<span>京公网安备11010502026831号</span>
+								<span><a href="">京ICP证150325号</a></span>
+								<span><a href="">食品经营许可证JY11113080533669号</a></span>
+								<span><a href="">企业营业执照</a></span>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

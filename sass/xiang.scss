@@ -1,0 +1,89 @@
+.index_nav_uplist{
+    display: none;
+}
+#x_main{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px;
+    overflow: hidden;
+}
+#zoomBox{
+    float: left;
+                position: relative;
+                width: 400px;
+                border: 1px solid #CECECE;
+            }
+            #midArea{
+                width: 400px;
+                height: 400px;
+                overflow: hidden;
+            }
+            #midArea img{
+                width: 400px;
+                height: 400px;
+            }
+            #zoom{
+                display: none;
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background: yellow;
+                opacity: .5;
+                cursor: move;
+            }
+            #bigArea{
+                display: none;
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                border: 1px solid #CECECE;
+                left: 400px;
+                top: -1px;
+                overflow: hidden;
+            }
+            #bigArea img{
+                position: absolute;
+                width: 800px;
+                height: 800px;
+            }
+.x_main_right{
+    float: left;
+    width: 500px;
+    margin-left: 80px;
+    h3{
+        font-size: 20px;
+        font-family: "微软雅黑";
+        height: 30px;
+        line-height: 30px;
+    }
+    .x_main_rightD{
+        color: #fff;
+        height: 93px;
+        line-height: 93px;
+        background-color: #fa8e19;
+        width: 100%;
+        span{
+            font-size: 25px;
+        }
+    }
+    .x_main_rightD1{
+        float: left;
+        margin-top:30px ;
+        a{
+            float: left;
+            width: 160px;
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            margin-left: 10px;
+        }
+        a:nth-child(1){
+            background: #69AF05;
+        }
+        a:nth-child(2){
+            background-color: #fa8e19;
+        }
+    }
+}
+
