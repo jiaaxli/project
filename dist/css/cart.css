@@ -90,20 +90,48 @@
   padding-top: 10px;
   line-height: 20px; }
 
-#prodList .cartAmount {
-  float: left;
+#prodList .pQuantity {
   width: 90px; }
-  #prodList .cartAmount input {
-    margin-left: 15px;
-    float: left;
-    font-size: 12px;
-    height: 14px;
-    line-height: 14px;
-    overflow: hidden;
-    padding: 0;
-    text-align: center;
-    vertical-align: middle;
-    width: 55px; }
+
+#prodList .cartAmount {
+  margin: 1px auto;
+  width: 55px;
+  height: 18px;
+  overflow: hidden;
+  zoom: 1; }
+
+#prodList a.cartCountBtn, #prodList a.cartCountBtn:hover {
+  background-color: #eeeeee;
+  color: #7d7d7d;
+  cursor: pointer;
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  margin: 1px 0 0 0;
+  text-decoration: none;
+  width: 10px; }
+
+#prodList a.cartCountBtn, #prodList a.cartCountBtn:hover, #prodList input.amount {
+  float: left;
+  font-size: 12px;
+  vertical-align: middle;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #cacaca;
+  overflow: hidden;
+  text-align: center; }
+
+#prodList input.amount {
+  float: left;
+  font-size: 12px;
+  height: 14px;
+  line-height: 14px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 25px;
+  margin: 0 2px 0; }
 
 #prodList .pSubtotal {
   width: 100px;

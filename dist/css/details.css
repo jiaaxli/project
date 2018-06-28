@@ -59,31 +59,31 @@
   overflow: hidden;
   zoom: 1;
   margin-right: 12px; }
-  .details_listD_div5D1 span {
-    float: left; }
-    .details_listD_div5D1 span a {
-      color: #dadada;
-      cursor: default;
-      display: block;
-      width: 18px;
-      height: 28px;
-      border: 1px solid #dadada;
-      display: block;
-      line-height: 28px;
-      text-align: center;
-      text-decoration: none; }
-    .details_listD_div5D1 span input {
-      width: 28px;
-      height: 28px;
-      line-height: 28px;
-      text-align: center;
-      border: 0;
-      border: 1px solid #dadada;
-      border-left: none;
-      border-right: none;
-      font-size: 14px;
-      overflow: hidden;
-      color: #969696; }
+  .details_listD_div5D1 a {
+    float: left;
+    color: #dadada;
+    cursor: default;
+    display: block;
+    width: 18px;
+    height: 28px;
+    border: 1px solid #dadada;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none; }
+  .details_listD_div5D1 input {
+    float: left;
+    width: 28px;
+    height: 26px;
+    line-height: 28px;
+    text-align: center;
+    border: 0;
+    border: 1px solid #dadada;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    overflow: hidden;
+    color: #969696; }
 
 .details_listD_div5D2 {
   float: left; }

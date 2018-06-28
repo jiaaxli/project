@@ -6,7 +6,7 @@ $(function(){
 		//console.log(data)
 		for(var i=0;i<=7;i++){
 			var obj = data[i];
-			console.log(data[i])
+			//console.log(data[i])
 			str+=`
 				<div class="index_item">
 								<span class="index_item_span">

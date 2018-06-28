@@ -10,20 +10,20 @@ $(function(){
 			var obj =jso[i];
 			strr+=`
 				<li>
-							<a href="" class="index_main1_a1">${obj.goodsName}</a>
-							<div class="index_main1_div1">
-								<span>
-									<i>${obj.price}</i>
-									70
-								</span>
-							</div>
-							<a href="" class="index_main1_a2"><img src="${obj.goodsListImg}"/></a>
-							<div class="index_main1_div2">
-								<a href="">
-									加入购物车
-								</a>
-							</div>
-						</li>
+					<a href="" class="index_main1_a1">${obj.goodsName}</a>
+					<div class="index_main1_div1">
+						<span>
+							<i>￥</i>
+								${obj.price}
+						</span>
+					</div>
+					<a href="" class="index_main1_a2"><img src="${obj.goodsListImg}"/></a>
+						<div class="index_main1_div2">
+							<a href="">
+								加入购物车
+							</a>
+						</div>
+				</li>
 			`
 		}
 		$(".index_main1_list").append(strr)

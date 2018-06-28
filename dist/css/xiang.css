@@ -3,9 +3,9 @@
   display: none; }
 
 #x_main {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 100px;
+  padding: 10px;
   overflow: hidden; }
 
 #zoomBox {
@@ -40,18 +40,27 @@
   border: 1px solid #CECECE;
   left: 400px;
   top: -1px;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 8; }
 
 #bigArea img {
   position: absolute;
   width: 800px;
   height: 800px; }
 
+#smallArea img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid green; }
+
 .x_main_right {
   float: left;
-  width: 500px;
-  margin-left: 80px; }
+  margin-left: 40px; }
   .x_main_right h3 {
+    width: 500px;
+    overflow: hidden;
     font-size: 20px;
     font-family: "微软雅黑";
     height: 30px;
@@ -79,3 +88,105 @@
       background: #69AF05; }
     .x_main_right .x_main_rightD1 a:nth-child(2) {
       background-color: #fa8e19; }
+    .x_main_right .x_main_rightD1 .pAmount {
+      width: 81px;
+      float: left;
+      margin-right: 10px;
+      overflow: hidden; }
+      .x_main_right .x_main_rightD1 .pAmount span {
+        float: left; }
+      .x_main_right .x_main_rightD1 .pAmount .text {
+        width: 53px;
+        height: 43px;
+        border: 1px solid #dadada;
+        overflow: hidden;
+        font-size: 18px;
+        text-align: center;
+        line-height: 43px;
+        color: #6b6b6b;
+        font-family: 宋体; }
+      .x_main_right .x_main_rightD1 .pAmount a.disable {
+        color: #ececec;
+        cursor: default; }
+      .x_main_right .x_main_rightD1 .pAmount a.p-reduce {
+        border-bottom: 1px solid #dadada; }
+      .x_main_right .x_main_rightD1 .pAmount a {
+        height: 21px;
+        width: 25px;
+        border: 1px solid #dadada;
+        border-top: 0;
+        text-align: center;
+        line-height: 21px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 宋体;
+        overflow: hidden;
+        background: 0;
+        margin-left: 0; }
+    .x_main_right .x_main_rightD1 .pBtn {
+      float: left; }
+      .x_main_right .x_main_rightD1 .pBtn a {
+        width: 130px;
+        height: 45px;
+        background-color: #669900;
+        display: block;
+        border-radius: 2px;
+        text-align: center;
+        padding: 0 0 0 30px;
+        color: white;
+        font-family: 微软雅黑;
+        font-size: 18px;
+        line-height: 45px;
+        position: relative;
+        cursor: pointer; }
+        .x_main_right .x_main_rightD1 .pBtn a b {
+          position: absolute;
+          top: 12px;
+          left: 18px;
+          width: 22px;
+          height: 20px;
+          background: url(../images/productinfo.png) no-repeat -269px -72px;
+          display: block; }
+    .x_main_right .x_main_rightD1 .quickBuy a {
+      padding: 0;
+      background-color: #fa8e19; }
+
+.pAmount {
+  width: 81px;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+  _display: inline; }
+  .pAmount span {
+    float: left; }
+  .pAmount .text {
+    width: 53px;
+    height: 43px;
+    border: 1px solid #dadada;
+    overflow: hidden;
+    font-size: 18px;
+    text-align: center;
+    line-height: 43px;
+    color: #6b6b6b;
+    font-family: 宋体; }
+  .pAmount a.disable {
+    color: #ececec;
+    cursor: default; }
+  .pAmount a.p-reduce {
+    border-bottom: 1px solid #dadada; }
+  .pAmount a {
+    height: 21px;
+    width: 25px;
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    text-align: center;
+    line-height: 21px;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-size: 14px;
+    font-family: 宋体;
+    overflow: hidden; }

@@ -73,9 +73,10 @@
     overflow: hidden;
     zoom: 1;
     margin-right: 12px;
-    span{
-        float: left;
+    
+        
         a{
+            float: left;
             color: #dadada;
             cursor: default;
             display: block;
@@ -88,8 +89,9 @@
             text-decoration: none;
         }
         input{
+             float: left;
             width: 28px;
-            height: 28px;
+            height: 26px;
             line-height: 28px;
             text-align: center;
             border: 0;
@@ -100,7 +102,7 @@
             overflow: hidden;
             color: #969696;
         }
-    }
+    
 }
 .details_listD_div5D2{
     float: left;
